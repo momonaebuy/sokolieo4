@@ -17,17 +17,19 @@ const SignedIn = (props) => {
 <div class="collapse navbar-collapse" id="ftco-nav">
 <ul class="navbar-nav ml-auto">
 {(profile.userType==='Buyer')?
-<li class="nav-item"><a href="/" class="nav-link"><i  class="icon-shopping_cart pr-2 "/>products</a></li>:null}
+<li class="nav-item"><Link to="/" class="nav-link"><i  class="icon-shopping_cart pr-2 "/>products </Link></li>:null}
 
-<li class="nav-item"><a href="./chat" class="nav-link"><i  class="ion-ios-chatbubbles pr-2"/>My chat</a></li>
+<li class="nav-item"><Link to="/chat" class="nav-link"><i  class="ion-ios-chatbubbles pr-2"/>My chat</Link></li>
 {(profile.userType==='Buyer')?
-<li class="nav-item"><a href="./profileBuyer" class="nav-link"><i  class="ion-ios-person pr-2"/>Profile</a>
-</li>:<li class="nav-item"><a href="./profile" class="nav-link"><i  class="ion-ios-person pr-2"/>Profile</a></li>}
+<li class="nav-item"><Link to="/profileBuyer" class="nav-link"><i  class="ion-ios-person pr-2"/>Profile</Link>
+</li>:<li class="nav-item"><Link to="/profile" class="nav-link"><i  class="ion-ios-person pr-2"/>Profile</Link></li>}
 
-<li class="nav-item"><a href="./contactus" class="nav-link"><i  class="ion-ios-call pr-2"/>Contact us</a></li>
-<li class="nav-item"><a href="./aboutus" class="nav-link"><i  class="ion-ios-alert pr-2"/>About Us</a></li>
-{(profile.userType==='Buyer')?<li class="nav-item"><a href="./mapbuyer"   class="nav-link"><i  class="ion-ios-map pr-2"/>Map</a></li>:null}
-<li class="nav-item"><a href=""onClick={props.signOut}  class="nav-link"><i  class="ion-ios-log-out pr-2"/>Log Out</a></li>
+<li class="nav-item"><Link to="/contactus" class="nav-link"><i  class="ion-ios-call pr-2"/>Contact us</Link></li>
+<li class="nav-item"><Link to="/aboutus" class="nav-link"><i  class="ion-ios-alert pr-2"/>About Us</Link></li>
+{(profile.userType==='Buyer')?<li class="nav-item"><Link to="/mapbuyer"   class="nav-link">
+  <i  class="ion-ios-map pr-2"/>Map</Link></li>:null}
+<li class="nav-item"><Link to="/"onClick={props.signOut}  class="nav-link"><i  class="ion-ios-log-out pr-2"/>
+Log Out</Link></li>
 </ul>
 </div>
 </div>

@@ -4,15 +4,10 @@ import ListProducts from './ListProducts';
 import './Products.css';
 import {connect} from 'react-redux';
 import {compose} from 'redux'
-import{Redirect} from 'react-router-dom'
+import{Redirect,Link} from 'react-router-dom'
 import { firestoreConnect } from 'react-redux-firebase'
 import { GoogleComponent } from 'react-google-location' 
 import Geocode from "react-geocode";
-
- 
- 
-
-
 Geocode.setApiKey('AIzaSyCd5GSrdhkRjDu53HCBVL7fh5QXa1-gIBE');
 
 Geocode.setLanguage("en");
@@ -131,7 +126,7 @@ console.log(profile,'my prof')
 <div class="container">
 <div class="row no-gutters slider-text align-items-center justify-content-center">
 <div class="col-md-9 text-center">
-<p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>Products</span></p>
+<p class="breadcrumbs"><span class="mr-2"><Link to="/">Home</Link></span> <span>Products</span></p>
 <h1 class="mb-0 bread">Products</h1>
 </div>
 </div>

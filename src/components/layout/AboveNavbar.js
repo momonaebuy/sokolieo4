@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-
+import{Redirect,Link} from 'react-router-dom'
  class AboveNavbar extends Component {
     render() {
       const { auth ,profile} = this.props;  

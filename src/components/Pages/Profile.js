@@ -69,12 +69,12 @@ class Profile extends Component {
       <div class="pl-0 col-sm-12 col-lg-6 d-flex ant-row-flex-start">
         <h5>your products</h5>
       </div>
-      
-      <div class=" col-sm-12 col-lg-6 d-flex flex-lg-row-reverse pr-0"> 
-        <a href="/addproducts?" > 
+    <div class=" col-sm-12 col-lg-6 d-flex flex-lg-row-reverse pr-0"> 
+        <Link to="/addproducts?" > 
               <Button  shape='round' style={{backgroundColor:'rgb(130, 174, 70)',color:'white'}}>
-              Add new products</Button>
-            </a>
+              Add new products
+              </Button>
+         </Link>
       </div>
       <div style={{marginTop:'2%',marginLeft:'5%' ,width:'90%',border:'solid',borderColor:'white',borderBottomColor:'gray'}}></div>
 </div>

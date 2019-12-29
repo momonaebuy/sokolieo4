@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sokolieo4/static/css/main.5db81220.chunk.css",
-    "main.js": "/sokolieo4/static/js/main.57e4318c.chunk.js",
-    "main.js.map": "/sokolieo4/static/js/main.57e4318c.chunk.js.map",
+    "main.js": "/sokolieo4/static/js/main.b8633b0c.chunk.js",
+    "main.js.map": "/sokolieo4/static/js/main.b8633b0c.chunk.js.map",
     "runtime-main.js": "/sokolieo4/static/js/runtime-main.02865af3.js",
     "runtime-main.js.map": "/sokolieo4/static/js/runtime-main.02865af3.js.map",
     "static/css/2.94f1c71f.chunk.css": "/sokolieo4/static/css/2.94f1c71f.chunk.css",
-    "static/js/2.68f63b35.chunk.js": "/sokolieo4/static/js/2.68f63b35.chunk.js",
-    "static/js/2.68f63b35.chunk.js.map": "/sokolieo4/static/js/2.68f63b35.chunk.js.map",
+    "static/js/2.07ba6a84.chunk.js": "/sokolieo4/static/js/2.07ba6a84.chunk.js",
+    "static/js/2.07ba6a84.chunk.js.map": "/sokolieo4/static/js/2.07ba6a84.chunk.js.map",
     "index.html": "/sokolieo4/index.html",
-    "precache-manifest.702cef605c37064fedf73f5187790fb8.js": "/sokolieo4/precache-manifest.702cef605c37064fedf73f5187790fb8.js",
+    "precache-manifest.e898a42a6f48d19da8b2e7bfadf38c83.js": "/sokolieo4/precache-manifest.e898a42a6f48d19da8b2e7bfadf38c83.js",
     "service-worker.js": "/sokolieo4/service-worker.js",
     "static/css/2.94f1c71f.chunk.css.map": "/sokolieo4/static/css/2.94f1c71f.chunk.css.map",
     "static/css/main.5db81220.chunk.css.map": "/sokolieo4/static/css/main.5db81220.chunk.css.map",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.02865af3.js",
     "static/css/2.94f1c71f.chunk.css",
-    "static/js/2.68f63b35.chunk.js",
+    "static/js/2.07ba6a84.chunk.js",
     "static/css/main.5db81220.chunk.css",
-    "static/js/main.57e4318c.chunk.js"
+    "static/js/main.b8633b0c.chunk.js"
   ]
 }
